@@ -1,0 +1,146 @@
+body {
+  background-color: #97b098;  /* #f5f5f5*/
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff; /* #fff*/
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #c2d8c4; /* #d9eaf7*/
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 5px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #97b098;/* #b7d6ec*/
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: #fafafa;
+}
+
+.filter-buttons {
+  margin-top: 10px;
+}
+
+.task-filter {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.task-filter button {
+  background-color: #e2fce4;/*#e2eafc */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.task-filter button:hover {
+  background-color: #cdf5ce;/*#cdd9f5 */
+}
+
+.task-filter button.active {
+  background-color: #9dbd9e; /*#a3c4f3 #ffe6ec*/
+}
+
+.task-counter {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 500;
+  color: #444;
+}
+
+.edit-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: #fafafa;
+  gap: 10px;
+}
+
+.task-text {
+  flex-grow: 1;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.edit-input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.task-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-item button:hover {
+  background-color: #e0e0e0;
+}
